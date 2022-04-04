@@ -16,12 +16,6 @@ class voice
 {
   public:
 
-   /** Constructor */
-  //  voice();
-    
-    /** Destructor */
-  //  ~voice();
-
     void init();
     void audioEngine();
     void amp_env();
