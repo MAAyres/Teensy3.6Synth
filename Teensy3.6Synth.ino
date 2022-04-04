@@ -4,7 +4,6 @@
 #include <Adafruit_PCD8544.h>
 #include <Audio.h>
 #include <Wire.h>
-//#include "poly.h"
 #include "ui.h"
 #include "voice.h"
 
