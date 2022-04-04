@@ -1,6 +1,6 @@
 # Teensy3.6Synth
 
-Monophonic subtrative synthesiser with stereo output.
+Monophonic USB-MIDI controlled subtrative synthesiser with stereo output.
 
 The synth is formed of two oscillators with adjustable waveforms which are then filtered and amplified in stereo.
 
