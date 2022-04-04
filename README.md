@@ -2,6 +2,8 @@
 
 Monophonic subtrative synthesiser with stereo output.
 
+The synth is formed of two oscillators with adjustable waveforms which are then filtered and amplified in stereo.
+
 The synth features 3 Analog potentiometers for parameter control and 4 pushbuttons (Shift, Edit, Left, Right) for menu selection and enabling parameter editing. Use of a Nokia 5110 LCD allows for visual feedback of parameter adjustments and a visual representation of envelopes etc.
 
 Though currently monophonic, the code has been structured for a future expansion to polyphony.
