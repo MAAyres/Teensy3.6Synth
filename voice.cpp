@@ -288,7 +288,7 @@ void voice::updateAmpRelease(int ampRelease){ // Updates release value of L/R Am
   envelope2.release(ampRelease);
 }
 
-void voice::updateModEnv(int modAttack, int modDecay, float modSustain, int modRelease, int modEnvAmount){
+void voice::updateModEnv(int modAttack, int modDecay, float modSustain, int modRelease, int modEnvAmount){ 
   envelope3.attack(modAttack);
   envelope3.decay(modDecay);
   envelope3.sustain(modSustain);
@@ -336,7 +336,7 @@ void voice::updateOsc2(float osc2sqr,float osc2saw,float osc2sin,float osc2Lpan,
   mixer13.gain(0,osc2env);
 }
 
-void voice::updatePmod(float osc1tune, float osc2tune){
+void voice::updatePmod(float osc1tune, float osc2tune){ //Updates Pitch Mod
 
   mixer13.gain(2,osc1tune);
   mixer14.gain(2,osc2tune);
